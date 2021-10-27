@@ -1,5 +1,5 @@
 css.main
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name ="viewport" content "width-device-width,intial-scale=1">
@@ -45,4 +45,11 @@ css.main
         list-style-type: square;
         padding: 20px;
         
+    }
+    .footer{
+        text-align: center;
+        padding: 20px;
+        background-color: gray;
+        color: black;
+
     }
