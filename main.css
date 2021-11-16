@@ -1,10 +1,14 @@
 .header{
     background-color:gray;
     text-align: center;
-    padding: 0,20,0;
+    padding: 5px
     color :black;
     font-family: "Times New Roman", Times, Serif;
-    font-size: 1em;
+    font-size: 12px
+    margin: 2px 2px;
+}
+h2{
+    background-color: red;
 }
 
 p{
@@ -12,33 +16,75 @@ p{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.875em; 
+    letter-spacing: 1px;
 }
 h3{
     background-color: gray;
     text-align: center;
-    padding: 20px;
-    color: blue;
+    padding:0,20,0;
+    color: red;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    text-decoration: underline black;
 }
 ul{
     list-style-type: square;
     background-color: blue;
     padding: 20px;
+    text-align: left;
+    border: 2px solid red;
+    letter-spacing: 1px;
+    
 
 }
 h4{
     background-color: gray;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     color: blue;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    border: 2px solid black;
     }
+ 
+img{
+    margin: 5px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}    
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
 footer{
     text-align: center;
-    padding: 20px;
+    padding: 30x;
     background-color: gray;
     color: black;
+    border: 2px solid red;
+    line-height: 20px;
+    letter-spacing: 1;
 
+}
+.form header{
+    border: red;
+
+    
 }
