@@ -2,10 +2,10 @@
     background-color:gray;
     text-align: center;
     padding: 5px
-    color :black;
+    color black;
     font-family: "Times New Roman", Times, Serif;
     font-size: 12px
-    margin: 2px 2px;
+    margin 2px 2px;
 }
 h2{
     background-color: red;
@@ -29,7 +29,7 @@ h3{
 }
 ul{
     list-style-type: square;
-    background-color: blue;
+    background-color: gray;
     padding: 20px;
     text-align: left;
     border: 2px solid red;
@@ -51,7 +51,118 @@ img{
     margin: 5px;
     border-radius: 2px;
     box-sizing: border-box;
+
 }    
+.nav{
+    padding: auto;
+    margin: 0;
+    text-decoration: underline;
+    list-style: square;
+    
+}
+
+.nav{
+    height: 20px;
+    width: 100%;
+    background-color: gray;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    padding:auto;
+    line-height: 2px;
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: red;
+    line-height: 2px;
+}
+
+
+ nav :hover{
+     border: 1px solid black;
+     transition: .5s ease;
+ }   
+
+ nav#icon{
+     color: blue;
+     font-size: 12px;
+     line-height: 2px;
+     float: right;
+     margin-right: 20px;
+     cursor: pointer;
+     display: block;
+ }
+nav label{
+    color: blue;
+    background: gray;
+}
+nav ul show{
+    left: 0;
+}
+
+form{
+    
+    background-color: grey;
+    border:2px solid blue;
+    box-sizing: content-box 2px;
+    
+}
+
+.form.btn{
+    background-color: blue;
+}
+
+.btn :hover{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 480px){
+    
+} 
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: initial;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+    
+
+@media ( max-width : 909px){}
+    
+
+
+@media ( max-width: 1200px){}
+    
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+
 
 
 

@@ -4,7 +4,8 @@
     <Title>Tier 1 Tactical Security Specialists</Title>
 </head>
 <body>
-    <nav>
+    <button class="menu-button" onclick="toggleMenu()">Menu</button>
+    <nav id="navigation">
         <div class="logo">Tier 1 Tactical Security Specialist</div>
         
         <ul>
@@ -75,17 +76,18 @@
                 <input type="text"id="lname" name="lname"value="Berry">
                 <label for="phone number">Phone Number</label>
                 <input type="text"id="phone number" phone number value="805-650-2123">
-                <p>Please click which ever option you need security for. 
+                <p>Please click which ever option you need security for.
+                     
                     Please click the submit button below and we will contact you.
 
                 </p>             
-                <label for="birthday-party"> I need security for </label>
+                <label for="birthday-party"> I need security for birthday-party </label>
                 <input type="checkbox" id="birthday-party" name="birthday-party" value="kids">
 
-                <label for="clothing-store">I need security for</label>
+                <label for="clothing-store">I need security for store</label>
                 <input type="checkbox" id="clothing-store" name="store" value="Clothing-Store">
 
-                <label for="car-dealership">I need security for</label>
+                <label for="car-dealership">I need security for car car-dealerships </car-dealerships></label>
                 <input type="checkbox" id="car-dealership" value="Best-Cars">
                 
                 <input type="submit">
@@ -101,6 +103,12 @@
             <p>Location Louisville KY 40216</p>
             <p>Phone Number 502-650-3535</p>
         </footer> 
+        <script>
+            function toggleMenu() {
+                var element = document.getElementById("navigation");
+                element.classList.toggle("open");
+            }
+        </script>
 </body>
 </html>
 
