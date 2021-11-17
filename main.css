@@ -58,14 +58,13 @@ img{
     margin: 0;
     text-decoration: underline;
     list-style: square;
-    
 }
 
-.nav{
+/* .nav{
     height: 20px;
     width: 100%;
     background-color: gray;
-}
+} */
 
 label{
     font-size: 12px;
@@ -125,14 +124,11 @@ form{
     background-color: blue;
 }
 
-@media only screen and (max-width: 480px){
-    
-} 
+nav.open {
+    display: block;
+}
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
 
     nav ul li {
         display: block;
@@ -140,11 +136,26 @@ form{
         margin-bottom: 10px;
         text-align: center;
     }
+
+    nav {
+        height: 0;
+        opacity: 0;
+        transition: height .5s, opacity 1s;
+    }
+
+    nav.open {
+        height: initial;
+        opacity: 1;
+    }
 }
 
     
 
-@media ( max-width : 909px){}
+@media ( min-width : 600px){
+    button {
+        display: none;
+    }
+}
     
 
 
