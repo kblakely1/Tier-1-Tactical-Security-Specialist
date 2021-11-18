@@ -128,6 +128,17 @@ nav.open {
     display: block;
 }
 
+button {
+    display: none;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** here is where your mobile styles should go **/
 @media only screen and (max-width: 600px) {
 
     nav ul li {
@@ -147,19 +158,23 @@ nav.open {
         height: initial;
         opacity: 1;
     }
+
+    button {
+        display: block;
+    }
+
 }
 
     
+/** here is where your tablet size and larger styles should go **/
+@media ( min-width : 800px){
 
-@media ( min-width : 600px){
-    button {
-        display: none;
+    .images {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
     
-
-
-@media ( max-width: 1200px){}
     
 
     
